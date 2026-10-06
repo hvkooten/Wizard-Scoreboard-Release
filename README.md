@@ -40,3 +40,6 @@ Wizard Scoreboard is a .NET MAUI app for tracking points in the Wizard card game
 2. Open the downloaded file on your Android device.
 3. If prompted, allow installation from unknown sources for your browser or file manager.
 4. Complete the install and open Wizard Scoreboard.
+
+## Privacy
+ - [Privacy policy](https://hvkooten.github.io/wizard-scoreboard-release/privacy-policy.html)
