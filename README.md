@@ -1,7 +1,5 @@
 # Wizard-Scoreboard-Release
 Releases for Wizard-Scoreboard
-[![CI](https://github.com/hvkooten/wizard-scoreboard-release/actions/workflows/ci.yml/badge.svg)](https://github.com/hvkooten/wizard-scoreboard-release/actions/workflows/ci.yml)
-[![Android Release](https://github.com/hvkooten/wizard-scoreboard-release/actions/workflows/android-release.yml/badge.svg)](https://github.com/hvkooten/wizard-scoreboard-release/actions/workflows/android-release.yml)
 
 Wizard Scoreboard is a .NET MAUI app for tracking points in the Wizard card game.
 
