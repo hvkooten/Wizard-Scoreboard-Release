@@ -9,16 +9,17 @@ All published versions of Wizard Scoreboard with their changes. Older versions c
 [Download APK v3.1.0](https://github.com/hvkooten/wizard-scoreboard-release/releases/download/v3.1.0/wizard-scoreboard-android.apk)
 
 - **Add data migration and backup import/export**: Add data migration, backup import/export, shared round validation, restore support, localized settings UI, tests, and roadmap documentation.
+
+## v3.0.0 (2026-10-06)
+
+[Download APK v3.0.0](https://github.com/hvkooten/wizard-scoreboard-release/releases/download/v3.0.0/wizard-scoreboard-android.apk)
+
 - **Update AdMob config and privacy README**: Add privacy link, per-build AdMob IDs, and bump app version to 10331.
 - Add monetization unit tests
 - Add multilingual privacy policy and Settings link
 - Fix AdMob init, add entry-dialog banners, monetization strings and tests
 - **Add ad and purchase flows to scoreboard app**: Integrate AdMob banners, interstitials, rewarded ads, and remove-ads purchase/restore flows across the main pages and scoreboard flow; add stop-game policies, save-game handling, AdMob initialization, and bump ApplicationVersion to 10327.
 - **Add monetization support and ad-free state**: Wire in AdMob and in-app purchase support for Android/iOS, add ad/purchase services and no-op fallbacks, persist remove_ads as IsAdFree with notifications, and bump app version/build metadata.
-
-## v3.0.0 (2026-10-06)
-
-[Download APK v3.0.0](https://github.com/hvkooten/wizard-scoreboard-release/releases/download/v3.0.0/wizard-scoreboard-android.apk)
 
 ## v2.5.5 (2026-10-06)
 
