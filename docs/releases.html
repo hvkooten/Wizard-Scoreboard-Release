@@ -34,6 +34,25 @@
 	<p><a href="index.html">&larr; Wizard Scoreboard</a></p>
 	<h1>Releases and changelog</h1>
 	<p>All published versions of Wizard Scoreboard with their changes. Older versions can be downloaded below.</p>
+    <section id="v3.1.0">
+        <h2>v3.1.0 <span class="date">(2026-10-07)</span></h2>
+        <p><a class="download" href="https://github.com/hvkooten/wizard-scoreboard-release/releases/download/v3.1.0/wizard-scoreboard-android.apk">Download APK v3.1.0</a></p>
+        <ul>
+            <li><details><summary>Add data migration and backup import/export</summary><p>Add data migration, backup import/export, shared round validation, restore support, localized settings UI, tests, and roadmap documentation.</p></details></li>
+        </ul>
+    </section>
+    <section id="v3.0.0">
+        <h2>v3.0.0 <span class="date">(2026-10-06)</span></h2>
+        <p><a class="download" href="https://github.com/hvkooten/wizard-scoreboard-release/releases/download/v3.0.0/wizard-scoreboard-android.apk">Download APK v3.0.0</a></p>
+        <ul>
+            <li><details><summary>Update AdMob config and privacy README</summary><p>Add privacy link, per-build AdMob IDs, and bump app version to 10331.</p></details></li>
+            <li>Add monetization unit tests</li>
+            <li>Add multilingual privacy policy and Settings link</li>
+            <li>Fix AdMob init, add entry-dialog banners, monetization strings and tests</li>
+            <li><details><summary>Add ad and purchase flows to scoreboard app</summary><p>Integrate AdMob banners, interstitials, rewarded ads, and remove-ads purchase/restore flows across the main pages and scoreboard flow; add stop-game policies, save-game handling, AdMob initialization, and bump ApplicationVersion to 10327.</p></details></li>
+            <li><details><summary>Add monetization support and ad-free state</summary><p>Wire in AdMob and in-app purchase support for Android/iOS, add ad/purchase services and no-op fallbacks, persist remove_ads as IsAdFree with notifications, and bump app version/build metadata.</p></details></li>
+        </ul>
+    </section>
     <section id="v2.5.5">
         <h2>v2.5.5 <span class="date">(2026-10-06)</span></h2>
         <p><a class="download" href="https://github.com/hvkooten/wizard-scoreboard-release/releases/download/v2.5.5/wizard-scoreboard-android.apk">Download APK v2.5.5</a></p>
@@ -47,7 +66,7 @@
     </section>
     <section id="v2.5.2">
         <h2>v2.5.2 <span class="date">(2026-10-06)</span></h2>
-        <p><a class="download" href="https://github.com/hvkooten/wizard-scoreboard-release/releases/download/v2.5.2/wizard-scoreboard-android.apk">Download APK v2.5.2</a></p>
+        <p class="no-download">No download available for this version.</p>
         <ul>
             <li><details><summary>release Handle optional release repo updates</summary><p>Add optional RELEASE_REPO_PAT handling to android-release workflow so VERSION_OVERVIEW.md can be updated and pushed in a separate release repository. Generalize the version-overview helper to accept a file path and repository name, create the file when missing, and bump WizardScoreboard to 2.5.2 (ApplicationVersion 10327).</p></details></li>
             <li><details><summary>Publish APKs and changelog to separate release repo</summary><p>Add a GitHub Actions step to create/update a release in hvkooten/wizard-scoreboard-release and upload APK artifacts and per-version changelog notes when RELEASE_REPO_PAT is provided. Authenticates gh with the provided token, prepares artifacts (artifacts/wizard-scoreboard-android-v${DISPLAY_VERSION}.apk and artifacts/wizard-scoreboard-android.apk), extracts the &quot;## v${DISPLAY_VERSION}&quot; section from ChangeLog.md/CHANGELOG.md into a temp file, and uses gh release upload/create/edit (with --clobber and --verify-tag) to attach files and notes. This runs in addition to existing release steps targeting the current repo. Bump ApplicationVersion 10325 → 10326 (ApplicationDisplayVersion unchanged).</p></details></li>
@@ -56,7 +75,7 @@
     </section>
     <section id="v2.5.1">
         <h2>v2.5.1 <span class="date">(2026-10-05)</span></h2>
-        <p><a class="download" href="https://github.com/hvkooten/wizard-scoreboard-release/releases/download/v2.5.1/wizard-scoreboard-android.apk">Download APK v2.5.1</a></p>
+        <p class="no-download">No download available for this version.</p>
         <ul>
             <li><details><summary>Combine same-name highscores; warn on deletes</summary><p>Update help pages and delete-group warnings in EN/DE/ES/FR/NL/DA to explain that same-named players across groups share highscore totals, deleting a group removes its scores, and unique names are recommended; bump ApplicationVersion to 10323.</p></details></li>
             <li><details><summary>Preserve group selection on navigation</summary><p>Re-select the active group before leaving group dialogs so OnAppearing does not reset the selection, and bump ApplicationVersion to 10321.</p></details></li>
@@ -78,6 +97,7 @@
         <h2>v2.3.0 <span class="date">(2026-10-05)</span></h2>
         <p class="no-download">No download available for this version.</p>
         <ul>
+            <li><details><summary>Bump app version to 2.3.0</summary><p>Update ApplicationDisplayVersion and ApplicationVersion in WizardScoreboard.csproj, and sync Android and iOS version names to 2.3.0.</p></details></li>
             <li><details><summary>Rename trump setting and tighten no-trump rules</summary><p>Replace AllowNoTrump with DealerPicksTrump across models, UI, persistence, and tests; keep legacy JSON compatibility, update no-trump validation/trump selection behavior, revise localized rules text, and bump ApplicationVersion to 10302.</p></details></li>
             <li><details><summary>Render suit symbols as text</summary><p>Update localized rules pages to render heart and diamond suits with the text-style selector, and bump ApplicationVersion from 10298 to 10299.</p></details></li>
             <li><details><summary>Reorder character-card bullets</summary><p>Reorder the Wizard rules character-card bullet lists so color-based entries precede suit-based entries in DE, EN, ES, FR, and NL, and normalize HTML list indentation/formatting.</p></details></li>
