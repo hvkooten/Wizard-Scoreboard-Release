@@ -4,6 +4,28 @@
 
 All published versions of Wizard Scoreboard with their changes. Older versions can be downloaded below.
 
+## v3.3.1 (2026-10-09)
+
+_No download available for this version._
+
+- **Add game variants and hidden bids support**: Persist per-group variants and copy them into sessions, enforce special-card and Cloud bid rules, mask hidden bids in the scoreboard, and add localized strings plus tests. Add Special cards: Bomb/Dragon/Fairy and Cloud/Juggler
+- **Add player stats to highscore screen**: Add per-player statistics to the Highscore view, persist finished games for stats calculation, update DI and tests, add localized empty-state and dialog text, and bump the application version.
+
+## v3.2.2 (2026-10-09)
+
+_No download available for this version._
+
+- **Expand test game generation scenarios**: Add scenario-driven test game generation, update saved-game round display, and cover new validation and generator tests; bump application version. Update chart for multiple winners
+- **Add charts**: Added score chart views from scoreboard and saved games, improved scoring and podium logic, dealer-bid validation, player chart colors, localized strings, expanded tests, and bumped application version.
+- **Add game summary flow and scoring**: Introduce a post-match game summary page with podium-style results, ranking, achievements, and image sharing. Add a calculator for final standings and bid-based records, improve trump selector layout and input touch handling, extend unit tests, update localized strings, and bump the application version.
+- feat: tablet and landscape layout (roadmap item 10)
+
+## v3.2.0 (2026-10-09)
+
+_No download available for this version._
+
+- **Refactor pages into MVVM view models**: Move major page logic into dedicated MVVM view models, including score grid calculations, dialog validation, and bindable list item models. Update pages to bind to the new models, add tests for the view models and score grid logic, increment the app version, and apply the project/package fixes needed for build and dependency resolution.
+
 ## v3.1.0 (2026-10-07)
 
 [Download APK v3.1.0](https://github.com/hvkooten/wizard-scoreboard-release/releases/download/v3.1.0/wizard-scoreboard-android.apk)
