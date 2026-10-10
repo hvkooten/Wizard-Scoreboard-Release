@@ -6,21 +6,18 @@ All published versions of Wizard Scoreboard with their changes. Older versions c
 
 ## v3.3.2 (2026-10-10)
 
-_No download available for this version._
-
-- **Use source-gen JSON and typed MAUI bindings**: Switched MAUI pages to strongly typed bindings, replaced reflection-based JsonSerializer usage with AppJsonContext source-generated metadata, added indented backup serialization support, covered JSON round-tripping and backup formatting with unit tests, enabled trimming-friendly Android Release publishing, disabled reflection-based JSON by default, and bumped ApplicationVersion to 10370.
-- **Add haptics and accessibility improvements**: Add user-controlled haptic feedback with persistence, vibration triggers, and Android permission handling. Improve icon button accessibility metadata, tighten color contrast, add WCAG contrast tests, update translations, and bump ApplicationVersion to 10369.
+[Download APK v3.3.2](https://github.com/hvkooten/wizard-scoreboard-release/releases/download/v3.3.2/wizard-scoreboard-android.apk)
 
 ## v3.3.1 (2026-10-09)
 
-_No download available for this version._
+[Download APK v3.3.1](https://github.com/hvkooten/wizard-scoreboard-release/releases/download/v3.3.1/wizard-scoreboard-android.apk)
 
 - **Add game variants and hidden bids support**: Persist per-group variants and copy them into sessions, enforce special-card and Cloud bid rules, mask hidden bids in the scoreboard, and add localized strings plus tests. Add Special cards: Bomb/Dragon/Fairy and Cloud/Juggler
 - **Add player stats to highscore screen**: Add per-player statistics to the Highscore view, persist finished games for stats calculation, update DI and tests, add localized empty-state and dialog text, and bump the application version.
 
 ## v3.2.2 (2026-10-09)
 
-_No download available for this version._
+[Download APK v3.2.2](https://github.com/hvkooten/wizard-scoreboard-release/releases/download/v3.2.2/wizard-scoreboard-android.apk)
 
 - **Expand test game generation scenarios**: Add scenario-driven test game generation, update saved-game round display, and cover new validation and generator tests; bump application version. Update chart for multiple winners
 - **Add charts**: Added score chart views from scoreboard and saved games, improved scoring and podium logic, dealer-bid validation, player chart colors, localized strings, expanded tests, and bumped application version.
@@ -29,7 +26,7 @@ _No download available for this version._
 
 ## v3.2.0 (2026-10-09)
 
-_No download available for this version._
+[Download APK v3.2.0](https://github.com/hvkooten/wizard-scoreboard-release/releases/download/v3.2.0/wizard-scoreboard-android.apk)
 
 - **Refactor pages into MVVM view models**: Move major page logic into dedicated MVVM view models, including score grid calculations, dialog validation, and bindable list item models. Update pages to bind to the new models, add tests for the view models and score grid logic, increment the app version, and apply the project/package fixes needed for build and dependency resolution.
 
