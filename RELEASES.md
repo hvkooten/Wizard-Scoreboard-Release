@@ -4,6 +4,13 @@
 
 All published versions of Wizard Scoreboard with their changes. Older versions can be downloaded below.
 
+## v3.3.2 (2026-10-10)
+
+_No download available for this version._
+
+- **Use source-gen JSON and typed MAUI bindings**: Switched MAUI pages to strongly typed bindings, replaced reflection-based JsonSerializer usage with AppJsonContext source-generated metadata, added indented backup serialization support, covered JSON round-tripping and backup formatting with unit tests, enabled trimming-friendly Android Release publishing, disabled reflection-based JSON by default, and bumped ApplicationVersion to 10370.
+- **Add haptics and accessibility improvements**: Add user-controlled haptic feedback with persistence, vibration triggers, and Android permission handling. Improve icon button accessibility metadata, tighten color contrast, add WCAG contrast tests, update translations, and bump ApplicationVersion to 10369.
+
 ## v3.3.1 (2026-10-09)
 
 _No download available for this version._
